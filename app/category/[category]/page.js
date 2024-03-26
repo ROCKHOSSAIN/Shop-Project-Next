@@ -15,7 +15,7 @@ export default function Brand({ params }) {
   const setPathName = pathName.split('/')[2]
 
   useEffect(() => {
-    if (pathName) {
+    if (setPathName) {
       const filteredCategory = products.filter(product => product.category === setPathName);
       setAllCategory(filteredCategory);
     } else {

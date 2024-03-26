@@ -16,6 +16,7 @@ const AllProducts = ({product}) => {
             width={270}
             height={310}
             src={thumbnail}
+            alt='thumbnail'
             />
           <Link href={`/products/${product.id}`}  className="text-base font-bold">
             {title}

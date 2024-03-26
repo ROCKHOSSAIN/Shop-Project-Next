@@ -14,6 +14,7 @@ export default  function Error({error,reset}){
             height={500}
             width={500}
              src={notfound}
+             alt='not found'
               />
             <h2 className='my-4'>{error?.message}</h2>
             <button

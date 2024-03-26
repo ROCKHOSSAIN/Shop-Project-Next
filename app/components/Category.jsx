@@ -10,6 +10,7 @@ const Category = ({category}) => {
             width={270}
             height={310}
             src={category.thumbnail}
+            alt="thumbnail"
             />
           <span className="text-base font-bold">
             {category.title}

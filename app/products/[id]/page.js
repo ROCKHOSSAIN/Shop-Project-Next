@@ -27,11 +27,11 @@ const Products = ({ params }) => {
                         <Link href={`/category/${category}`} className="text-[#919090] my-3">{category}</Link>
 
                         <div className="mt-3 flex items-center justify-start gap-1">
-                            <Image width={20} height={20} src={Star} width="20px" alt="" />
-                            <Image width={20} height={20} src={Star} width="20px" alt="" />
-                            <Image width={20} height={20} src={Star} width="20px" alt="" />
-                            <Image width={20} height={20} src={Star} width="20px" alt="" />
-                            <Image width={20} height={20} src={Star} width="20px" alt="" />
+                            <Image width={20} height={20} src={Star} alt="" />
+                            <Image width={20} height={20} src={Star} alt="" />
+                            <Image width={20} height={20} src={Star} alt="" />
+                            <Image width={20} height={20} src={Star} alt="" />
+                            <Image width={20} height={20} src={Star} alt="" />
                         </div>
                         <hr className="my-5 bg-black" />
 

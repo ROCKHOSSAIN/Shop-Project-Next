@@ -4,7 +4,7 @@ import Star from "../../assets/svg/star.svg"
 import ImageModel from "@/app/components/ImageModel";
 import Link from "next/link";
 const Products = ({ params }) => {
-    console.log(params)
+    
     const id = parseInt(params.id);
     const product = products?.find((product) => product.id === id)
     const { title, price, thumbnail, brand, description, images,category } = product
@@ -24,8 +24,8 @@ const Products = ({ params }) => {
                     </div>
                     <div className="w-full lg:w-5/12">
                         <h1 className="italic text-xl lg:text-3xl font-serif font-semibold">{title}</h1>
-                     <Link href={`category/${category}`} className="text-[#919090] my-3">{category}</Link>
-                     {/* <span href={`category/${brand}`} className="text-[#919090] my-3">{brand}</span> */}
+                        <Link href={`/category/${category}`} className="text-[#919090] my-3">{category}</Link>
+
                         <div className="mt-3 flex items-center justify-start gap-1">
                             <Image width={20} height={20} src={Star} width="20px" alt="" />
                             <Image width={20} height={20} src={Star} width="20px" alt="" />

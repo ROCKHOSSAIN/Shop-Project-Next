@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Category = ({category}) => {
-    console.log(category)
     return (
         <div>
              <h2 className="text-sm lg:text-base mt-2">

@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Sign_up_Email from "./components/Sign_up_Email";
 import Hero from "./components/Hero";
+import Loading from "./components/Loading";
 
 const inter = Inter({ subsets: ["latin"] });
 

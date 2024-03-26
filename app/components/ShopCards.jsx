@@ -1,4 +1,4 @@
-import products from "../data/page";
+import products from "../../data/data";
 import AllProducts from "./AllProducts";
 // import ProductItem from "./[id]/ProductItem";
 

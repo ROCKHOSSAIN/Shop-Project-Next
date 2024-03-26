@@ -1,8 +1,8 @@
-import products from "@/app/data/page";
-import Image from "next/image";
-import Star from "../../assets/svg/star.svg"
 import ImageModel from "@/app/components/ImageModel";
+import products from "@/data/data";
+import Image from "next/image";
 import Link from "next/link";
+import Star from "../../assets/svg/star.svg";
 const Products = ({ params }) => {
     
     const id = parseInt(params.id);

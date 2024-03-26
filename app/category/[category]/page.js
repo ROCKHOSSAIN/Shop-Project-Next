@@ -1,12 +1,11 @@
 'use client'
 import Category from "@/app/components/Category";
 // import products from "@/app/data/page";
-import { useEffect, useState } from "react";
-import { usePathname } from "next/navigation";
-import Link from "next/link";
-import products from "@/app/data/page";
-import CustomLink from "@/app/utils/CustomLink";
 import Search from "@/app/components/Search";
+import CustomLink from "@/app/utils/CustomLink";
+import products from "@/data/data";
+import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 
 export default function Brand({ params }) {
   const [allCategory, setAllCategory] = useState(products);
